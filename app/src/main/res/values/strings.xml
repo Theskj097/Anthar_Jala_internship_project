@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Anthar-Jala Watch</string>
+    <string name="nav_map">Water Map</string>
+    <string name="nav_log">Log Borewell</string>
+    <string name="nav_guide">Recharge Guide</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Map Screen -->
+    <string name="map_title">Community Water Map</string>
+    <string name="map_subtitle">Tap a zone to see water health stats</string>
+    <string name="legend_safe">Safe (&gt;3 in/hr)</string>
+    <string name="legend_moderate">Moderate (1–3 in/hr)</string>
+    <string name="legend_critical">Critical (&lt;1 in/hr)</string>
+
+    <!-- Log Screen -->
+    <string name="log_title">Log Your Borewell</string>
+    <string name="log_depth_hint">Current Borewell Depth (ft)</string>
+    <string name="log_year_hint">Year of Drilling</string>
+    <string name="log_yield_hint">Current Water Yield (inches/hour)</string>
+    <string name="log_submit">Submit Reading</string>
+    <string name="log_success">Reading logged successfully!</string>
+    <string name="log_history">My Borewell History</string>
+    <string name="depth_scale_label">Water Table Depth</string>
+
+    <!-- Guide Screen -->
+    <string name="guide_title">Recharge Guide</string>
+    <string name="guide_subtitle">DIY methods to replenish groundwater</string>
+
+    <!-- Alerts Screen -->
+    <string name="alerts_title">Water Alerts</string>
+    <string name="alerts_subtitle">Area-level groundwater notifications</string>
+    <string name="no_alerts">No active alerts for your area.</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">My Profile</string>
+    <string name="privacy_note">Your exact location is never stored. All data is anonymized to a 500m grid to protect your privacy.</string>
+    <string name="contribution_label">Total Readings Logged</string>
+    <string name="badge_label">Contribution Badge</string>
+</resources>

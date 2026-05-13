@@ -1,0 +1,13 @@
+<resources>
+    <color name="deep_ocean">#0A1628</color>
+    <color name="ocean_blue">#0D2137</color>
+    <color name="water_blue">#1565C0</color>
+    <color name="cyan_accent">#00BCD4</color>
+    <color name="teal_accent">#00897B</color>
+    <color name="stress_safe">#4CAF50</color>
+    <color name="stress_moderate">#FFC107</color>
+    <color name="stress_critical">#F44336</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0C4DE</color>
+    <color name="surface_card">#132337</color>
+</resources>
