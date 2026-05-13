@@ -26,6 +26,9 @@ jobs:
         # Using a specific gradle version if gradlew is missing
         gradle-version: '8.9' 
 
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
     - name: Build with Gradle
       run: ./gradlew assembleDebug
 
