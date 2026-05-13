@@ -9,7 +9,7 @@ navigationCompose = "2.7.7"
 roomVersion = "2.6.1"
 playServicesMaps = "18.2.0"
 mapsCompose = "4.3.3"
-mapsUtils = "3.8.2"
+mapsUtils = "3.9.0"
 playServicesLocation = "21.3.0"
 coroutines = "1.8.1"
 datastore = "1.1.0"
@@ -39,7 +39,7 @@ androidx-room-compiler = { group = "androidx.room", name = "room-compiler", vers
 # Maps
 play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
 maps-compose = { group = "com.google.maps.android", name = "maps-compose", version.ref = "mapsCompose" }
-maps-utils-ktx = { group = "com.google.maps.android", name = "maps-android-utils", version.ref = "mapsUtils" }
+maps-utils-ktx = { group = "com.google.maps.android", name = "android-maps-utils", version.ref = "mapsUtils" }
 play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
 
 # Coroutines
