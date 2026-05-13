@@ -320,7 +320,7 @@ private fun PercolationPitDiagram(color: Color) {
             val paint = android.graphics.Paint().apply {
                 textAlign = android.graphics.Paint.Align.CENTER
                 textSize = 20f
-                color = android.graphics.Color.argb(180, 255, 255, 255)
+                setColor(android.graphics.Color.argb(180, 255, 255, 255))
             }
             drawText("Sand", w * 0.5f, pitBottom - (pitBottom - pitTop) * 0.47f, paint)
             paint.color = android.graphics.Color.argb(180, 212, 160, 23)
@@ -376,7 +376,7 @@ private fun BorewellRechargeDiagram(color: Color) {
         drawContext.canvas.nativeCanvas.apply {
             val p = android.graphics.Paint().apply {
                 textSize = 18f; textAlign = android.graphics.Paint.Align.CENTER
-                color = android.graphics.Color.argb(180, 255, 255, 255)
+                setColor(android.graphics.Color.argb(180, 255, 255, 255))
             }
             drawText("Filter", (fLeft + fRight) / 2f, (fTop + fBottom) / 2f, p)
             drawText("Borewell", bwX, h * 0.95f, p)
@@ -432,7 +432,7 @@ private fun FarmPondDiagram(color: Color) {
         drawContext.canvas.nativeCanvas.apply {
             val p = android.graphics.Paint().apply {
                 textSize = 19f; textAlign = android.graphics.Paint.Align.CENTER
-                color = android.graphics.Color.argb(180, 255, 255, 255)
+                setColor(android.graphics.Color.argb(180, 255, 255, 255))
             }
             drawText("Farm Pond", w * 0.5f, h * 0.6f, p)
             p.textSize = 15f

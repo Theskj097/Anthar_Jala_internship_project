@@ -184,7 +184,7 @@ private fun AntharBottomBar(
 }
 
 @Composable
-private fun BottomNavItem(
+private fun RowScope.BottomNavItem(
     screen: Screen,
     selected: Boolean,
     badgeCount: Int,
