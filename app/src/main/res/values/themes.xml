@@ -1,6 +1,6 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.AntharmJalaWatch" parent="android:Theme.Material.NoTitleBar">
+    <style name="Theme.AntharmJalaWatch" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:statusBarColor">@color/deep_ocean</item>
         <item name="android:navigationBarColor">@color/deep_ocean</item>
         <item name="android:windowBackground">@color/deep_ocean</item>
